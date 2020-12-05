@@ -6,6 +6,9 @@ let totalScore = score + bonus
 console.log(totalScore)
 
 let firstName = 'John'
-let lastname = 'Doe'
+firstName = 'Jane'
 
-console.log('Hello ' + firstName + ' ' + lastname);
+let lastname = 'Doe'
+let fullName = firstName + ' ' + lastname
+
+console.log('Hello ' + fullName);
